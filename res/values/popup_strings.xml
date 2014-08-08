@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NewQA!</string>
+    <string name="app_name">PopupWindows</string>
+    <string name="Preferences">设置</string>
+    <string name="FullScreen">全屏</string>
+    <string name="ContentDescriptionExitFullScreen">退出全屏</string>
+    <string name="Exit">退出</string>
+    <string name="AddBookmark">加入书签</string>
+    <string name="SharePage">分享网页</string>
+    <string name="Search">网页内查找</string>
+    <string name="IncognitoTab">开启无痕浏览</string>
+    <string name="CloseIncognitoTab">关闭无痕浏览</string>
+    <string name="Bookmarks">书签</string>
+</resources>

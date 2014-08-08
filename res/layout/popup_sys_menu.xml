@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/transparent_bg" >
+
+    <!-- android:background="@drawable/transparent_bg" -->
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_black"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/MainActivity.MenuAddBookmark"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/AddBookmark"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/MainActivity.MenuBookmarks"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/Bookmarks"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/MainActivity.MenuIncognitoTab"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/IncognitoTab"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/MainActivity.MenuFullScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/FullScreen"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/MainActivity.MenuSharePage"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/SharePage"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/MainActivity.MenuSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/Search"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/MainActivity.MenuPreferences"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/Preferences"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/MainActivity.MenuExit"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_menu_item_height"
+            android:layout_marginTop="@dimen/detail_menu_margin_top"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/Exit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
