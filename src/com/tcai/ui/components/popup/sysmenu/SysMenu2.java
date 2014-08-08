@@ -1,45 +1,17 @@
 package com.tcai.ui.components.popup.sysmenu;
 
-import android.app.Activity;
 import android.content.Context;
-import android.graphics.BitmapFactory;
-import android.graphics.Matrix;
-import android.graphics.Rect;
-import android.graphics.Typeface;
-import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.GridView;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.PopupWindow.OnDismissListener;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Gravity;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.View.OnKeyListener;
 import android.view.ViewGroup.LayoutParams;
 import android.view.animation.AnimationUtils;
-import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow.OnDismissListener;
 
-import java.util.ArrayList;
-
+import com.tcai.popup.R;
 import com.tcai.ui.components.popup.PopupWindows;
-import com.tcai.ui.components.popup.urllist.UrlList.OnUrlItemClickListener;
-import com.tcai.ui.components.popup.urllist.UrlList.OnUrlItemCloseBtnClickListener;
-import com.tcai.utils.DPUtil;
-import com.tcai.utils.FontUtil;
-
-import net.londatiga.android.R;
 
 public class SysMenu2 extends PopupWindows implements OnDismissListener {
 

@@ -1,16 +1,15 @@
 package com.tcai.ui.components.popup.menu;
 
-import com.tcai.utils.FontUtil;
-
-import net.londatiga.android.R;
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.tcai.popup.R;
+import com.tcai.utils.FontUtil;
 
 public class GirdViewAdapter extends BaseAdapter {
 

@@ -1,7 +1,7 @@
 package com.tcai.ui.components.popup.urllist;
 
-import android.graphics.drawable.Drawable;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 
 public class UrlItem {
 	private Drawable icon;

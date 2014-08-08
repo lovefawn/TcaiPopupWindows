@@ -1,18 +1,16 @@
 package com.tcai.ui.components.popup;
 
+import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.View.OnKeyListener;
 import android.view.View.OnTouchListener;
+import android.view.WindowManager;
 import android.widget.PopupWindow;
-import android.app.Activity;
-import android.content.Context;
 
 public class PopupWindows {
 	protected Context mContext;

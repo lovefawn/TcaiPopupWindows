@@ -1,34 +1,31 @@
 package com.tcai.ui.components.popup.urllist;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.content.Context;
 import android.graphics.Rect;
-import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.ScrollView;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
-import android.widget.PopupWindow.OnDismissListener;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
-import android.view.ViewGroup.LayoutParams;
 import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow.OnDismissListener;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
-import java.util.List;
-import java.util.ArrayList;
-
+import com.tcai.popup.R;
 import com.tcai.ui.components.popup.PopupWindows;
 import com.tcai.utils.DPUtil;
 import com.tcai.utils.FontUtil;
-
-import net.londatiga.android.R;
 
 public class UrlList extends PopupWindows implements OnDismissListener {
 	private View mRootView;

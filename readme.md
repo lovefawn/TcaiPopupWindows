@@ -3,17 +3,48 @@ TcaiPopupWindows
 
 TcaiPopupWindows is a small android library to create PopupWindows dialog.
 
-Ìá¹©3ÖÖ×é¼ş
-1.¸ß·ÂUCä¯ÀÀÆ÷Ö÷²Ëµ¥
-2.¸ß·ÂUCä¯ÀÀÆ÷tabÁĞ±í
-3.°´menu¼üµ¯³öµÄÏµÍ³²Ëµ¥
+æä¾›3ç§ç»„ä»¶
 
-![Example Image](http://londatiga.net/images/quickaction3d_horizontal.png)  ![Example Image](http://londatiga.net/images/quickaction3d_vertical.png) 
+* æŒ‰menué”®å¼¹å‡ºçš„ç³»ç»Ÿèœå•
+* é«˜ä»¿UCæµè§ˆå™¨ä¸»èœå•
+* é«˜ä»¿UCæµè§ˆå™¨tabåˆ—è¡¨
+
+ç»„ä»¶è€¦åˆåº¦ä½ï¼Œä¸”è¿™äº›ç»„ä»¶æ”¯æŒè‡ªå®šä¹‰å­—ä½“åŠŸèƒ½
+
+![Example Image](http://lovefawn.github.io/TcaiPopupWindows/images/sysmenu.jpeg)  ![Example Image](http://lovefawn.github.io/TcaiPopupWindows/images/popmenu.jpeg)  ![Example Image](http://lovefawn.github.io/TcaiPopupWindows/images/urlsmenu.jpeg)
 
 How to Use
 ==========
 
+	# show sysMenu
+	 
+		Button btn1 = (Button) this.findViewById(R.id.btn1);
+		btn1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				sysMenu.show(v);
+			}
+		});
 
+	# show popMenu
+		
+		Button btn2 = (Button) this.findViewById(R.id.btn2);
+		btn2.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				popMenu.show(v);
+			}
+		});
+		
+	# show urllist
+		
+		Button btn3 = (Button) this.findViewById(R.id.btn3);
+		btn3.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				quickAction.show(v);
+			}
+		});
 
 
 Developed By
